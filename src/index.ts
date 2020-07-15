@@ -65,12 +65,12 @@ export function translate(source: Language, target: Language, sentence: string):
       ],
       lang: {
         user_preferred_langs: ['EN', 'JA'],
-        source_lang_user_selected: 'auto',
-        target_lang: 'EN',
+        source_lang_user_selected: source,
+        target_lang: target,
       },
       priority: -1,
       commonJobParams: {},
-      timestamp: 1594813789633,
+      timestamp: Date.now(),
     },
     id: 29510025,
   };
