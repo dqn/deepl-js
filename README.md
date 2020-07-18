@@ -1,4 +1,4 @@
-# deepl-js
+# deepljs
 
 Private DeepL API wrapper.
 
